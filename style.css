@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+html{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(imagens/fundo2.png);
+}
+
+header{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+
+header a{
+    padding: 5px;
+    text-decoration: none;
+    color: #6d78a8;
+    font-weight: bold;
+}
+
+header a:hover{
+    padding: 5px;
+    text-decoration: none;
+    background: #6d78a8;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+section div{
+    width: 900px;
+    margin: 10px auto;
+}
+
+section div h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section div p{
+    margin-top: 10px;
+}
+
+form{
+    padding: 5px;
+}
+
+form input{
+    outline: 0;
+}
+
+form textarea{
+    outline: 0;
+}
+
+form .enviar{
+    background: #6d78a8;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+form .enviar:hover{
+    background: #383F5D;
+}
+
+footer{
+    width: 900px;
+    padding: 5px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: rgb(175, 174, 174);
+    bottom: 0;
+    flex-shrink: 0;
+}
+
+footer p{
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
